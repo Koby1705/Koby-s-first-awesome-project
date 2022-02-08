@@ -25,3 +25,40 @@ h1, h2, h3 {
     float: left;
     font-size: 250%;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 6px;
+}
+
+#menu, #logo {
+    line-height: 85px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+#menu a:hover {
+    color: #23537E;
+    background: #2398F5;
+    box-shadow: 0 0 10px #2398F5, 0 0 40px #2398F5, 0 0 80px #2398F5;
+    transition-delay: 0.25s;
+}
+
+.active {
+    color: #23537E;
+    background: #2398F5;
+    box-shadow: 0 0 10px #2398F5, 0 0 40px #2398F5, 0 0 80px #2398F5;
+    transition-delay: 0.25s;
+}
