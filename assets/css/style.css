@@ -7,6 +7,21 @@
 }
 
 body {
-    font-family: "Libre Baskerville", serif;
+    font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
+    color: #1c1c1c;
+}
+
+/* headings and logo */
+
+h1, h2, h3 {
+    font-family: "Libre Baskerville", serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: blue;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
