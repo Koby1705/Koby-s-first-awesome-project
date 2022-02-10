@@ -115,32 +115,34 @@ h1, h2, h3 {
     margin-left: 15px;
 }
 
-#contents-list-left {
+.contents-list-left {
     width: 50%;
     padding-top: 15px;
     list-style-type: none;
-    line-height: 25px;
+    line-height: 35px;
 }
 
-#contents-list-right {
+.contents-list-right {
     width: 50%;
     padding-top: 15px;
     list-style-type: none;
-    line-height: 25px;
+    line-height: 35px;
 
     position: relative;
 
     left: 50%;
-    bottom: 65px;
+    bottom: 105px;
 }
 
-#contents-list li {
+#popular-contents li {
     margin-bottom: 10px;
 }
 
-#popular-contents h4 {
+#popular-contents h3 {
     font-size: 120%;
     font-family: "Libre Baskerville", serif;
+    color: #1c1c1c;
+    letter-spacing: 1px;
 }
 
 hr {
