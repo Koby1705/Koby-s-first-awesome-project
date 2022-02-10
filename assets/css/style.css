@@ -8,7 +8,7 @@
 
 body {
     font-family: "Libre Franklin", sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: #1c1c1c;
 }
 
@@ -17,21 +17,23 @@ body {
 h1, h2, h3 {
     font-family: "Libre Baskerville", serif;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     color: blue;
+    font-weight: 300;
 }
 
 #logo {
     float: left;
     font-size: 250%;
     font-style: italic;
+    margin-left: 15px;
 }
 
 /* navigation links */
 
 #menu {
     font-size: 120%;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 }
 
 #menu, #logo {
@@ -82,7 +84,7 @@ h1, h2, h3 {
     background: url(../images/hero-home.jpg) no-repeat center center;
 }
 
-#cover-text h1, h2 {
+#cover-text h1, #cover-text h2 {
     color: whitesmoke;
     text-align: center;
 }
@@ -103,4 +105,24 @@ h1, h2, h3 {
     padding-top: 20px;
 
     position: absolute;
+}
+
+/* popular contents */
+
+#popular-contents {
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 15px;
+    background-color: red;
+}
+
+#contents-list {
+    width: 100%;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+#popular-contents h4 {
+    font-size: 120%;
+    font-family: "Libre Baskerville", serif;
 }
