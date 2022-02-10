@@ -113,16 +113,37 @@ h1, h2, h3 {
     height: 150px;
     margin-top: 50px;
     margin-left: 15px;
-    background-color: red;
 }
 
-#contents-list {
-    width: 100%;
+#contents-list-left {
+    width: 50%;
     padding-top: 15px;
     list-style-type: none;
+    line-height: 25px;
+}
+
+#contents-list-right {
+    width: 50%;
+    padding-top: 15px;
+    list-style-type: none;
+    line-height: 25px;
+
+    position: relative;
+
+    left: 50%;
+    bottom: 65px;
+}
+
+#contents-list li {
+    margin-bottom: 10px;
 }
 
 #popular-contents h4 {
     font-size: 120%;
     font-family: "Libre Baskerville", serif;
+}
+
+hr {
+    border-bottom: 1px solid #1c1c1c;
+    margin: 5px 0;
 }
