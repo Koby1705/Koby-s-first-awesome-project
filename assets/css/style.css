@@ -162,7 +162,6 @@ hr {
 
 #price-list-table table {
     width: 58%;
-    border-radius: 5px 5px 0 0;
     box-shadow: 0 0 20px #2398F5;
 }
 
@@ -184,4 +183,16 @@ hr {
 
 #price-list-table tr:nth-of-type(even) {
     background-color: lightgray;
+}
+
+/* arrangement */
+
+#arrangement {
+    margin: 150px 0 0 0;
+    font-size: large;
+}
+
+.arrangement-content {
+    padding: 20px;
+    list-style-type: none;
 }
