@@ -245,3 +245,16 @@ footer {
     opacity: 0.4;
     font-weight: 900;
 }
+
+/* gallery */
+
+#apartment-photos {
+    clear: both;
+    line-height: 0;
+    column-gap: 0;
+    column-count: 4;
+}
+
+#apartment-photos img {
+    width: 100%;
+}
