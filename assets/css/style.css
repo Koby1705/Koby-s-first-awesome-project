@@ -171,7 +171,7 @@ hr {
 
 #price-list-table tr {
 	display: grid;
-	grid-template-columns: 1fr 2fr 2fr;
+	grid-template-columns: 1fr 1fr 1fr;
     text-align: left;
 
 }
@@ -259,7 +259,7 @@ footer {
     width: 100%;
 }
 
-/* book-now-form */
+/* book-now-form & main img */
 
 .book-now-section {
     width: 100%;
@@ -314,4 +314,15 @@ footer {
     background-color: whitesmoke;
     color: #23537E;
     box-shadow: 0 0 10px #2398F5, 0 0 15px #2398F5, 0 0 20px #2398F5;
+}
+
+/* Media queries */
+
+/* For larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #price-list-table {
+        max-width: 65%;
+        height: 250px;
+        margin: 0 auto;
+    }
 }
