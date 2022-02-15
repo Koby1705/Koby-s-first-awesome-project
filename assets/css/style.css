@@ -18,7 +18,7 @@ h1, h2, h3 {
     font-family: "Libre Baskerville", serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: blue;
+    color: #23537E;
     font-weight: 300;
 }
 
@@ -42,7 +42,7 @@ h1, h2, h3 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 #menu a {
@@ -325,7 +325,7 @@ footer {
     }
 }
 
-/* For medium screen sizes 1000px and down */
+/* For medium screen sizes 1000px wide and down */
 @media screen and (max-width: 1000px) {
     #price-list-table {
         width: 90%;
@@ -388,5 +388,25 @@ footer {
 
     hr {
         display: none;
+    }
+}
+
+/* For small screen sizes 500px wide and down */
+@media screen and (max-width: 500px) {
+    #logo {
+        font-size: 5vw;
+    }
+
+    #menu {
+        font-size: 3vw;
+    }
+
+    #menu li {
+        margin: 15px;
+        letter-spacing: 2px;
+    }
+
+    #menu a {
+        
     }
 }
