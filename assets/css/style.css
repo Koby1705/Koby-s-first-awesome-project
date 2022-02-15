@@ -361,4 +361,11 @@ footer {
     #price-list-table td::before {
         float: left;
     }
+
+    #menu {
+        clear: left;
+        float: left;
+        line-height: 25px;
+        margin: 0 0 25px 15px;
+    }
 }
