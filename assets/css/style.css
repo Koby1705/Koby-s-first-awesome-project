@@ -371,6 +371,7 @@ footer {
 
     #cover-text {
         left: 0;
+        width: 100vw;
     }
 
     #arrangement {
