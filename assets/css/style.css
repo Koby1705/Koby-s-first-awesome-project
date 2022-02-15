@@ -162,16 +162,14 @@ hr {
 #price-list-table table {
     width: 58%;
     box-shadow: 0 0 20px #2398F5;
+    border-collapse: collapse;
 }
 
 #price-list-table th, td {
-    border: 1px solid #1c1c1c;
     padding: 12px 15px;
 }
 
 #price-list-table tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
     text-align: left;
 
 }
@@ -324,5 +322,43 @@ footer {
         max-width: 65%;
         height: 250px;
         margin: 0 auto;
+    }
+}
+
+/* For medium screen sizes 1000px and down */
+@media screen and (max-width: 1000px) {
+    #price-list-table {
+        min-width: 85%;
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    #price-list-table th {
+        display: none;
+    }
+
+    #price-list-table td {
+        display: block;
+    }
+
+    #price-list-table td:first-child {
+        text-align:center;
+        background-color: #2398F5;
+    }
+
+    #price-list-table td:nth-child(2)::before {
+        content: "Guest No. 1-4"
+    }
+
+    #price-list-table td:nth-child(3)::before {
+        content: "Guest No. 5-6"
+    }
+
+    #price-list-table td {
+        text-align: right;
+    }
+
+    #price-list-table td::before {
+        float: left;
     }
 }
