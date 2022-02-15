@@ -160,9 +160,9 @@ hr {
 }
 
 #price-list-table table {
-    width: 58%;
     box-shadow: 0 0 20px #2398F5;
     border-collapse: collapse;
+    width: 100%;
 }
 
 #price-list-table th, td {
@@ -328,9 +328,9 @@ footer {
 /* For medium screen sizes 1000px and down */
 @media screen and (max-width: 1000px) {
     #price-list-table {
-        min-width: 85%;
-        height: 250px;
-        margin-top: 30px;
+        width: 90%;
+        height: 600px;
+        margin: 50px auto;
     }
 
     #price-list-table th {
@@ -367,5 +367,13 @@ footer {
         float: left;
         line-height: 25px;
         margin: 0 0 25px 15px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #arrangement {
+        text-align: center;
     }
 }
