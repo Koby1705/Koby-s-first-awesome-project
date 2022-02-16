@@ -60,7 +60,6 @@ h1, h2, h3 {
 }
 
 .active {
-    color: whitesmoke;
     background: #2398F5;
     box-shadow: 0 0 10px #2398F5, 0 0 15px #2398F5, 0 0 20px #2398F5;
     transition-delay: 0.25s;
@@ -388,6 +387,10 @@ footer {
     hr {
         display: none;
     }
+
+    #apartment-photos {
+        column-count: 3;
+    }
 }
 
 /* For small screen sizes 500px wide and down */
@@ -403,5 +406,9 @@ footer {
     #menu li {
         margin: 15px;
         letter-spacing: 2px;
+    }
+
+    #apartment-photos {
+        column-count: 2;
     }
 }
