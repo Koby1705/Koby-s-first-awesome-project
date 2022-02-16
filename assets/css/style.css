@@ -82,13 +82,14 @@ h1, h2, h3 {
     background: url(../images/hero-home.jpg) no-repeat center center;
 }
 
-#cover-text h1, #cover-text h2 {
+#cover-text h2, #cover-text p {
     color: whitesmoke;
     text-align: center;
+    font-size: 110%;
 }
 
-#cover-text h1 {
-    font-size: 90%;
+#cover-text p {
+    font-size: 180%;
 }
 
 #cover-text {
@@ -369,7 +370,7 @@ footer {
 
     #cover-text {
         left: 0;
-        width: 100vw;
+        width: 100%;
     }
 
     #arrangement {
