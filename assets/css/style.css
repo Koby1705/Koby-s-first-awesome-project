@@ -266,7 +266,7 @@ footer {
 }
 
 .book-now-form {
-    margin: 300px 0 0 15px;
+    margin-top: 300px;
     padding: 25px;
     position: absolute;
     color: whitesmoke;
@@ -410,5 +410,10 @@ footer {
 
     #apartment-photos {
         column-count: 2;
+    }
+
+    .book-now-form {
+        text-align: center;
+        left: 0;
     }
 }
