@@ -52,7 +52,7 @@ h1, h2, h3 {
 }
 
 #menu a:hover {
-    color: #23537E;
+    color: whitesmoke;
     background: #2398F5;
     box-shadow: 0 0 10px #2398F5, 0 0 20px #2398F5, 0 0 25px #2398F5;
     transition-delay: 0.25s;
@@ -60,7 +60,7 @@ h1, h2, h3 {
 }
 
 .active {
-    color: #23537E;
+    color: whitesmoke;
     background: #2398F5;
     box-shadow: 0 0 10px #2398F5, 0 0 15px #2398F5, 0 0 20px #2398F5;
     transition-delay: 0.25s;
@@ -304,8 +304,7 @@ footer {
 }
 
 .input-text:hover {
-    border: 3px solid #2398F5;
-    background-color: whitesmoke;
+    background-color: #2398F5;
 }
 
 .submit-button:hover {
@@ -404,9 +403,5 @@ footer {
     #menu li {
         margin: 15px;
         letter-spacing: 2px;
-    }
-
-    #menu a {
-        
     }
 }
