@@ -31,3 +31,10 @@ Apartment location is Vir, Croatia.
   - In this part of the page guests can see popular contents that are offered to them as well as price list for the specific part of the year, number of guests and what is included in price arrangement.
 
   ![Landing Image-Middle Part](/assets/images/landing-page-middle-part-doc.png)
+
+- __Google Map & Footer__
+
+  - Here guest can see live embedded map of the actual address of the apartment in Croatia, Vir.
+  - Footer section of each page contains 3 social media links that open in a new tab improving the user experience, name of the author, year of production and contact us section with real apartment address, email and mobile phone number of the owner.
+
+  ![Map & Footer](/assets/images/map-footer-doc.png)
