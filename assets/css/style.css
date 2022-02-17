@@ -123,18 +123,13 @@ h1, h2, h3 {
 
 .contents-list-right {
     width: 50%;
-    padding-top: 15px;
     list-style-type: none;
     line-height: 35px;
 
     position: relative;
 
     left: 50%;
-    bottom: 105px;
-}
-
-#popular-contents li {
-    margin-bottom: 10px;
+    bottom: 70px;
 }
 
 #popular-contents h3, #price-list-table h3 {
@@ -375,14 +370,6 @@ footer {
 
     #arrangement {
         text-align: center;
-    }
-
-    .contents-list-left, .contents-list-right {
-        width: 100%;
-    } */
-
-    .contents-list-right {
-        padding-left: 20px;
     } 
 
     hr {
@@ -421,5 +408,12 @@ footer {
     .book-now-form {
         text-align: center;
         left: 0;
+    }
+}
+
+/* For small screen sizes 350px wide and down */
+@media screen and (max-width: 350px) {
+    #popular-contents li {
+        font-size: 4vw;
     }
 }
