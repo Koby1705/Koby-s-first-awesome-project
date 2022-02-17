@@ -380,10 +380,6 @@ footer {
         column-count: 3;
         height: 50%;
     }
-
-    #apartment-photos > img {
-        min-height: 50vh;
-    }
 }
 
 /* For small screen sizes 500px wide and down */
