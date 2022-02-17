@@ -377,8 +377,7 @@ footer {
     }
 
     #apartment-photos {
-        column-count: 3;
-        height: 50%;
+        column-count: 2;
     }
 }
 
