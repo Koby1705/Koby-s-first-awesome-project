@@ -379,11 +379,11 @@ footer {
 
     .contents-list-left, .contents-list-right {
         width: 100%;
-    }
+    } */
 
     .contents-list-right {
         padding-left: 20px;
-    }
+    } 
 
     hr {
         display: none;
@@ -391,6 +391,11 @@ footer {
 
     #apartment-photos {
         column-count: 3;
+        height: 50%;
+    }
+
+    #apartment-photos > img {
+        min-height: 50vh;
     }
 }
 
