@@ -49,6 +49,7 @@ Apartment location is Vir, Croatia.
 - __Book Now Page__
 
   - On this page guests can leave their personal information, choose between 3 options in the dropdown menu (No. of guests, 1-6) and accordingly they would be contacted to arrange further agreement.
+  - All fields require to be filled for the form to work
 
 ### Future Features
 
@@ -58,3 +59,20 @@ Apartment location is Vir, Croatia.
   - To accomplish that I would need HTML, CSS and jQuery.
 
   ![Gallery](/assets/images-readme.md/future-gallery-doc.png)
+
+## Testing
+
+- __Functionality and Usability Testing__
+
+   - The site has been tested on several browsers and platforms, all internal navigation works, all external links function well and open in a new tab.
+   - All 3 pages are fully responsive to all screen sizes and there is no issues at all.
+
+- __Validator Testing__
+
+  - No errors were found when passing through the official
+
+    <details>
+    <summary>W3C Validator</summary>
+
+    - [index.html] (https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkoby1705.github.io%2Fapartment-ana%2Findex.html)
+    - [gallery.html] ()
