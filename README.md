@@ -74,5 +74,27 @@ Apartment location is Vir, Croatia.
     <details>
     <summary>W3C Validator</summary>
 
-    - [index.html] (https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkoby1705.github.io%2Fapartment-ana%2Findex.html)
-    - [gallery.html] ()
+    - [index.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkoby1705.github.io%2Fapartment-ana%2Findex.html)
+    - [gallery.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkoby1705.github.io%2Fapartment-ana%2Fgallery.html)
+    - [book-now.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fkoby1705.github.io%2Fapartment-ana%2Fgallery.html)
+    </details>
+
+  - No errors were found when passing through the official
+
+    <details>
+    <summary>W3C CSS Validator</summary>
+
+    - [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkoby1705.github.io%2Fapartment-ana%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    </details>
+
+- __Lighthouse Testing__
+
+  - All pages passed the Google Chrome Lighthouse reports
+
+    <details>
+    <summary>Reports</summary>
+
+    - [index report](assets/images-readme.md/lighthouse-index-doc.png)
+    - [gallery report](assets/images-readme.md/lighthouse-gallery-doc.png)
+    - [book-now report](assets/images-readme.md/lighthouse-book-now-doc.png)
+    </details>
