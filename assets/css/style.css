@@ -12,7 +12,6 @@ body {
     color: #1c1c1c;
 }
 
-/* headings and logo */
 
 h1, h2, h3 {
     font-family: "Libre Baskerville", serif;
@@ -29,7 +28,6 @@ h1, h2, h3 {
     margin-left: 15px;
 }
 
-/* navigation links */
 
 #menu {
     letter-spacing: 4px;
@@ -66,7 +64,6 @@ h1, h2, h3 {
     border-radius: 10px;
 }
 
-/* hero home and cover text */
 
 #hero-outer {
     width: 100%;
@@ -106,7 +103,6 @@ h1, h2, h3 {
     position: absolute;
 }
 
-/* popular contents */
 
 #popular-contents {
     height: 150px;
@@ -145,7 +141,6 @@ hr {
     width: 58vw;
 }
 
-/* price list table */
 
 #price-list-table {
     height: 250px;
@@ -177,7 +172,6 @@ hr {
     background-color: lightgray;
 }
 
-/* arrangement */
 
 #arrangement {
     margin: 150px 0 0 0;
@@ -189,7 +183,6 @@ hr {
     list-style-type: none;
 }
 
-/* Google maps */
 
 #map {
     width: 100%;
@@ -197,7 +190,6 @@ hr {
     margin-top: 350px;
 }
 
-/* footer */
 
 footer {
     background-color: #111;
@@ -239,7 +231,6 @@ footer {
     font-weight: 900;
 }
 
-/* gallery */
 
 #apartment-photos {
     clear: both;
@@ -252,7 +243,6 @@ footer {
     width: 100%;
 }
 
-/* book-now-form & main img */
 
 .book-now-section {
     width: 100%;
@@ -308,9 +298,7 @@ footer {
     box-shadow: 0 0 10px #2398F5, 0 0 15px #2398F5, 0 0 20px #2398F5;
 }
 
-/* Media queries */
 
-/* For larger to medium screen sizes from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #price-list-table {
         width: 65%;
@@ -319,7 +307,6 @@ footer {
     }
 }
 
-/* For medium screen sizes 1000px wide and down */
 @media screen and (max-width: 1000px) {
     #price-list-table {
         width: 90%;
@@ -381,7 +368,6 @@ footer {
     }
 }
 
-/* For small screen sizes 500px wide and down */
 @media screen and (max-width: 500px) {
     #logo {
         font-size: 5vw;
@@ -406,7 +392,6 @@ footer {
     }
 }
 
-/* For small screen sizes 350px wide and down */
 @media screen and (max-width: 350px) {
     #popular-contents li {
         font-size: 4vw;
