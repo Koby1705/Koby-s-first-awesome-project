@@ -38,3 +38,10 @@ Apartment location is Vir, Croatia.
   - Footer section of each page contains 3 social media links that open in a new tab improving the user experience, name of the author, year of production and contact us section with real apartment address, email and mobile phone number of the owner.
 
   ![Map & Footer](/assets/images/map-footer-doc.png)
+
+- __Gallery__
+
+  - The Gallery page contains an image gallery section showcasing images relevant to the site.
+  - Masonry styling is used to build the gallery
+
+  ![Gallery](/assets/images/gallery-doc.png)
