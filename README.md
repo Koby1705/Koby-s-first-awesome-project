@@ -98,3 +98,16 @@ Apartment location is Vir, Croatia.
     - [gallery report](assets/images-readme.md/lighthouse-gallery-doc.png)
     - [book-now report](assets/images-readme.md/lighthouse-book-now-doc.png)
     </details>
+
+## Unfixed Bugs
+
+- No bugs
+
+## Deployment
+
+The site was deployed to Github pages using the following steps:
+
+- In the Github repository, click on the Settings tab.
+- Scroll down and click Pages from the left side navigation menu.
+- From the Source section drop-down menu, select the Main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display with the successful deployment message: Your site is published at https://koby1705.github.io/apartment-ana/
