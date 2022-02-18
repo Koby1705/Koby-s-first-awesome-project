@@ -45,3 +45,16 @@ Apartment location is Vir, Croatia.
   - Masonry styling is used to build the gallery
 
   ![Gallery](/assets/images-readme.md/gallery-doc.png)
+
+- __Book Now Page__
+
+  - On this page guests can leave their personal information, choose between 3 options in the dropdown menu (No. of guests, 1-6) and accordingly they would be contacted to arrange further agreement.
+
+### Future Features
+
+- Image Gallery With CSS Reflection
+
+  - In the future I would like to implement beautiful and creative gallery with black background so that the images can be screened on the substrates.
+  - To accomplish that I would need HTML, CSS and jQuery.
+
+  ![Gallery](/assets/images-readme.md/future-gallery-doc.png)
