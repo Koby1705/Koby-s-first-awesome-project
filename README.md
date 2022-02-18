@@ -34,7 +34,7 @@ Apartment location is Vir, Croatia.
 
 - __Google Map & Footer__
 
-  - Here guest can see live embedded map of the actual address of the apartment in Croatia, Vir.
+  - Here guests can see live embedded map of the actual address of the apartment in Croatia, island Vir.
   - Footer section of each page contains 3 social media links that open in a new tab improving the user experience, name of the author, year of production and contact us section with real apartment address, email and mobile phone number of the owner.
 
   ![Map & Footer](/assets/images-readme.md/map-footer-doc.png)
@@ -42,14 +42,14 @@ Apartment location is Vir, Croatia.
 - __Gallery__
 
   - The Gallery page contains an image gallery section showcasing images relevant to the site.
-  - Masonry styling is used to build the gallery
+  - Masonry styling is used to build the gallery.
 
   ![Gallery](/assets/images-readme.md/gallery-doc.png)
 
 - __Book Now Page__
 
   - On this page guests can leave their personal information, choose between 3 options in the dropdown menu (No. of guests, 1-6) and accordingly they would be contacted to arrange further agreement.
-  - All fields require to be filled for the form to work
+  - All fields require to be filled for the form to work.
 
 ### Future Features
 
@@ -111,3 +111,35 @@ The site was deployed to Github pages using the following steps:
 - Scroll down and click Pages from the left side navigation menu.
 - From the Source section drop-down menu, select the Main Branch
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display with the successful deployment message: Your site is published at https://koby1705.github.io/apartment-ana/
+
+## Credits
+
+I would like to thank especialy my colleague David Bowers from Slack community who helped me resolve layout issue in the final stages of the project and pointed me to error regarding iframe that I had and did not know how to resolve by myself.
+
+### Content
+
+- All the icons were taken from [Font Awesome](https://fontawesome.com/) version 5.15.4
+- All text was written by myself
+
+### Media
+
+- All images were supplied by myself and taken on locatin apart from 3 images that were sourced from [Pexels.com](https://www.pexels.com/)
+- Those 3 images are:
+  
+  - seabed
+  - hero img on home page
+  - hero img on book-now page
+
+- The social media links in the footer link to:
+
+  - https://www.facebook.com/
+  - https://www.instagram.com/
+  - https://www.youtube.com/
+
+### Code
+
+- Most of the code was written by myself and was learnt from [www.codeinstitute.net](https://www.codeinstitute.net)
+- Inspiration for the hero images, header and gallery with masonry design was taken from the Love Running Walkthrough project from [www.codeinstitute.net](https://www.codeinstitute.net)
+- Inspiration for the neon light button hover effect was taken from [Youtbe.com](https://www.youtube.com/watch?v=ex7jGbyFgpA)
+- Inspiration for the responsive table on all screen sizes and how to style it was taken from [Youtbe.com](https://www.youtube.com/watch?v=J_sy1EuruZ0) & [Youtbe.com](https://www.youtube.com/watch?v=biI9OFH6Nmg)
+- Inspiration on how to style the footer was taken from [Youtube.com](https://www.youtube.com/watch?v=zdA3qZNH1vc)
